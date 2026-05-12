@@ -1,3 +1,4 @@
+//parte 1 de cadastro
 algoritmo "Primeiro Programa"
 
 var
@@ -23,4 +24,23 @@ inicio
     fimpara
   fimse
  
+fimalgoritmo
+
+//parte de sair do programa 
+algoritmo "Primeiro Programa"
+
+var
+  resposta:caractere
+  nome: caractere
+  cargo: caractere
+  salario:caractere
+  data:caractere
+  contador:inteiro
+inicio
+  escreval("Escolha uma das opçoes a seguir 1- Cadastrar funcionarios; 2- Pequise pelo nome; 3- Exibir todos os funcionarios; 4- sair do programa")
+  leia(resposta)
+  se 4 entao
+  escreval("voce saiu do programa")
+fimse
+
 fimalgoritmo
